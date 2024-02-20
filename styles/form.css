@@ -55,6 +55,7 @@
     height: 74px;
     box-sizing: border-box;
     position: relative;
+    transition: .2s ease all;
 }
 
 .form-input {
@@ -87,4 +88,8 @@
 .form-input:focus {
     margin-top: 27px;
     height: auto;
+}
+
+.form-group:focus-within {
+    border-left: 5px solid #6933DC;
 }
