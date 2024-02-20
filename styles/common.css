@@ -4,6 +4,10 @@ body {
     color: #333333;
 }
 
+a {
+    color: #6933DC;
+}
+
 @font-face {
     font-family: 'Myseo Sans Cyrl';
     src: url('../fonts/museosanscyrl-500.ttf');
