@@ -58,6 +58,20 @@ a {
     background: #3a0d9bda;
 }
 
+.button-transparent {
+    background: transparent;
+    color: #6933DC;
+    border: 1px solid #6933DC;
+    transition: .2s ease all;
+
+}
+
+.button-transparent:hover {
+    background: #6933DC;
+    color: #FFFFFF;
+
+}
+
 .footer {
     text-align: center;
     padding: 40px 0;

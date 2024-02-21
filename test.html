@@ -22,34 +22,65 @@
             <div class="test-pre-title">
                 Test #1: 'JavaScript Fundamentals'
             </div>
-            <div class="test-progress-bar"></div>
+            <div class="test-progress-bar">
+                <div class="test-progress-bar-item complete">
+                    <div class="test-progress-bar-item-circle"></div>
+                    <div class="test-progress-bar-item-text">Question 1</div>
+                </div>
+                <div class="test-progress-bar-item active">
+                    <div class="test-progress-bar-item-circle"></div>
+                    <div class="test-progress-bar-item-text">Question 2</div>
+                </div>
+                <div class="test-progress-bar-item">
+                    <div class="test-progress-bar-item-circle"></div>
+                    <div class="test-progress-bar-item-text">Question 3</div>
+                </div>
+                <div class="test-progress-bar-item">
+                    <div class="test-progress-bar-item-circle"></div>
+                    <div class="test-progress-bar-item-text">Question 4</div>
+                </div>
+                <div class="test-progress-bar-item">
+                    <div class="test-progress-bar-item-circle"></div>
+                    <div class="test-progress-bar-item-text">Question 5</div>
+                </div>
+            </div>
             <div class="test-question">
-                <div class="test-question-title common-title">
+                <div class="test-question-title">
                     <span>Question 2:</span> "There should be a question text here"
                 </div>
                 <div class="test-question-options">
                     <div class="test-question-option">
-                        <input type="radio" id="answer-one">
+                        <input type="radio" id="answer-one" name="answer">
                         <label for="answer-one">Answer Option 1</label>
                     </div>
                     <div class="test-question-option">
-                        <input type="radio" id="answer-two">
+                        <input type="radio" id="answer-two" name="answer">
                         <label for="answer-two">Answer Option 2</label>
                     </div>
                     <div class="test-question-option">
-                        <input type="radio" id="answer-three">
+                        <input type="radio" id="answer-three" name="answer">
                         <label for="answer-three">Answer Option 3</label>
                     </div>
                     <div class="test-question-option">
-                        <input type="radio" id="answer-four">
+                        <input type="radio" id="answer-four" name="answer">
                         <label for="answer-four">Answer Option 4</label>
                     </div>
                 </div>
             </div>
             <div class="test-actions">
                 <div class="test-previous-action">
-                    <button class="button button-transparent"></button>
+                    <button class="button button-transparent">Back</button>
                 </div>
+                <div class="test-time">
+                    <div class="test-time-text">Time remaining: </div>
+                    <div class="test-time-clock">49</div>
+                </div>
+                <div class="test-next-action">
+                    <button class="button button-transparent">Next</button>
+                </div>
+            </div>
+            <div class="pass-question">
+                <a href="#">Skip question <img src="images/symbole-fleche-droite-violet.png" alt="arrow"></a>
             </div>
         </div>
     </section>
