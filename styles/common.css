@@ -29,6 +29,18 @@ a {
     margin: 0 auto;
 }
 
+.common-title {
+    font-family: 'Myseo Sans Cyrl Bold';
+    font-size: 48px;
+    line-height: 58px;
+    text-align: left;
+
+}
+
+.common-title span {
+    color: #6933DC;
+}
+
 .button {
     padding: 14px 35px;
     border: 0;

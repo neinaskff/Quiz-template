@@ -12,18 +12,6 @@
     max-width: 504px;
 }
 
-.form-title {
-    font-family: 'Myseo Sans Cyrl Bold';
-    font-size: 48px;
-    line-height: 58px;
-    text-align: left;
-
-}
-
-.form-title span {
-    color: #6933DC;
-}
-
 .form-details {
     margin-top: 60px;
     max-width: 485px;
@@ -67,7 +55,7 @@
     font-size: 18px;
     line-height: 22px;
     color: #6933DC;
-    font-family: 'Myseo Sans Cyrl Bold';
+    font-family: 'Myseo Sans Cyrl Bold', sans-serif;
 }
 
 .form-label {
