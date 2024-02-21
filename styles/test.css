@@ -16,7 +16,7 @@
 }
 
 .test-question-title {
-    font-family: 'Myseo Sans Cyrl Bold';
+    font-family: 'Myseo Sans Cyrl Bold', sans-serif;
     font-size: 36px;
     line-height: 43px;
 }
