@@ -35,3 +35,21 @@
 .main-button {
     margin-top: 60px;
 }
+
+.main-button a {
+    padding: 14px 35px;
+    border: 0;
+    border-radius: 6px;
+    gap: 10px;
+    background: #6933DC;
+    color: #FFFFFF;
+    font-size: 17px;
+    line-height: 20px;
+    cursor: pointer;
+    transition: .4s;
+    text-decoration: none;
+}
+
+.main-button a:hover {
+    background: #3a0d9bda;
+}
