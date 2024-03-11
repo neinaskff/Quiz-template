@@ -31,7 +31,7 @@
                     choiceOptionElement.className = 'choice-option';
                     choiceOptionElement.setAttribute('data-id', quiz.id);
                     choiceOptionElement.onclick = function () {
-                        that.chooseQuiz(this)
+                        that.chooseQuiz(this);
                     }
 
                     const choiceOptionTextElement = document.createElement('div');
@@ -59,7 +59,7 @@
         chooseQuiz(element) {
             const dataId = element.getAttribute('data-id');
             if (dataId) {
-                location.href = 'test.html' + location.search + '&id' + dataId;
+                location.href = 'test.html' + location.search + '&id=' + dataId;
             }
         }
 
