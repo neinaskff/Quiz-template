@@ -69,16 +69,15 @@
             }
             return isValid;
         },
-
         processForm() {
             if (this.validateForm()) {
 
                 let paramString = '';
-                this.forEach(item => {
-                    paramString += item.name;
+                this.fields.forEach(item => {
+                    paramString += (!paramString ? '?' : '&') + item.name + '=' + item.element.value;
                 })
 
-                location.href = 'choice.html?'
+                location.href = 'choice.html' + paramString;
             }
         }
     };
