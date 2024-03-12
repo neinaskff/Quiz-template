@@ -19,7 +19,7 @@
 
     <section class="test">
         <div class="container">
-            <div class="test-pre-title">
+            <div class="test-pre-title" id="pre-title">
                 Test #1: 'JavaScript Fundamentals'
             </div>
             <div class="test-progress-bar">
@@ -69,18 +69,19 @@
             </div>
             <div class="test-actions">
                 <div class="test-previous-action">
-                    <button class="button button-transparent" disabled>Back</button>
+                    <button class="button button-transparent" id="prev" disabled>Back</button>
                 </div>
                 <div class="test-time">
                     <div class="test-time-text">Time remaining: </div>
                     <div class="test-time-clock">49</div>
                 </div>
                 <div class="test-next-action">
-                    <button class="button button-transparent" disabled>Next</button>
+                    <button class="button button-transparent" id="next" disabled>Next</button>
                 </div>
             </div>
             <div class="pass-question">
-                <a href="#">Skip question <img src="images/symbole-fleche-droite-violet.png" alt="arrow"></a>
+                <a href="javascript:void(0)" id="pass">Skip question <img src="images/symbole-fleche-droite-violet.png"
+                        alt="arrow"></a>
             </div>
         </div>
     </section>

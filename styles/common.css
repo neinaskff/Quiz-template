@@ -72,10 +72,16 @@ a {
 }
 
 .button-transparent:hover {
-    background: #6933DC;
-    color: #FFFFFF;
-
+    color: #cecee7;
 }
+
+.button-transparent:disabled {
+    cursor: not-allowed;
+    background: transparent;
+    color: #cecee7;
+    border: 1px solid #cecee7;
+}
+
 
 .footer {
     text-align: center;
